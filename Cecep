@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Cecep{
+    public static void main(String[] args) {
+        
+        Scanner sken = new Scanner(System.in);
+
+        float tagihan, tip, total;
+
+        System.out.print("Masukan jumlah tagihan :");
+        tagihan = sken.nextFloat();
+
+        tip = (tagihan >= 50 && tagihan <= 300) ? tip = tagihan * 15/100 : tagihan * 20/100;
+        total = tagihan + tip;
+
+        System.out.println("Tagihan : " + tagihan);
+        System.out.println("Tip : " + tip);
+        System.out.println("Total : " + total);
