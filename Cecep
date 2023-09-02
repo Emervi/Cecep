@@ -16,3 +16,6 @@ public class Cecep{
         System.out.println("Tagihan : " + tagihan);
         System.out.println("Tip : " + tip);
         System.out.println("Total : " + total);
+
+    }
+}
